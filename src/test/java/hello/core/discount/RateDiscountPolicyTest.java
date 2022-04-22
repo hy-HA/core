@@ -33,7 +33,7 @@ class RateDiscountPolicyTest {
         //when
         int discount = discountPolicy.discount(member, 10000);
         //then(org.assertj~) > 옵션+엔터로 on-demand satatic 해주면 임포트 됨.
-        assertThat(discount).isEqualTo(1000);
+        assertThat(discount).isEqualTo(0);
     }
 
 }
